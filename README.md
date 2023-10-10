@@ -2,7 +2,7 @@
 簡易的なユーザー登録、ログインシステム
 
 データベースコード
-```sql
+```csharp
 CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(255) NOT NULL,
